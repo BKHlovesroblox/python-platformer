@@ -5,3 +5,4 @@ import pygame
 # game loop
 
     # imput
+    # update
