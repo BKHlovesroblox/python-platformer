@@ -1,9 +1,14 @@
 import pygame
 
+# constant variables
+SCREEN_SIZE = (700,500)
+DARK_GREY = (50,50,50)
+
 #init
 pygame.init()
-screen = pygame.display.set_mode( (700,500) )
+screen = pygame.display.set_mode(SCREEN_SIZE)
 
+while True:
 # game loop
 
     # imput
@@ -11,7 +16,8 @@ screen = pygame.display.set_mode( (700,500) )
     # update
 
     # draw
-    screen.fill( (r,g,b) )
+    screen.fill(DARK_GREY)
+    pygame.display.flip()
 
 # quit
 pygame.quit()
